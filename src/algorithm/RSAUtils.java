@@ -219,8 +219,6 @@ public class RSAUtils {
         //解密
         String real_Data = decryptByPrivateKey(encrypt, getPrivateKey(keyPair));
         System.out.println("初始数据为:"+real_Data);
-
-        System.out.println(Math.floorMod(10^17,3233));
     }
 
 }
